@@ -18,11 +18,11 @@ header {
 }
  
 .content {
-      width: 40%;
+      width: fit-content;
       margin: 4em auto;
       font-size: 15px;
       line-height: 30px;
-      text-align: justify;
+      text-align: center;
   border-style: solid;
   border
 }
