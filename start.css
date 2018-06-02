@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
 html, body {
       margin: 0;
       padding: 0;
@@ -16,7 +18,16 @@ header {
       background-size: cover;
 }
  
+.start-content {
+    position: absolute;
+    margin: 4em auto;
+    padding: 40px;
+}
 
+ol {
+    font-family: 'Luckiest Guy', cursive;
+    
+}
  
 .logo {
       line-height: 60px;
@@ -74,7 +85,7 @@ nav ul li a {
       color: #000000;
       display: none;
 }
- 
+
 @media(max-width: 786px) {
  
       .logo {
